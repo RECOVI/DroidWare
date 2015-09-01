@@ -1,3 +1,6 @@
 # DroidWare
-This is a dataset of the malware samples being all of the android OS. It was manually collected 278 benign application samples and 121 malware samples being all of the android OS. Malware samples were obtained and analyzed by VirusTotal1 web site, which is an on-line scanning tool for malware and for Benign samples were collected from manifest application by Google Play2. The dataset features are formed by 152 permissions from the android platform and are responsible to indicate what resources and device actions can be accessed by the applications.
+
+DroidWare is a synthetic dataset designed to address the problem of malware detection in Android-based environments. The dataset is composed of 278 normal (non-malware) and 121 positive (malware) samples, which were obtained by analysing network traffic data. Malware samples were obtained and analyzed by VirusTotal 1 (https://www.virustotal.com), which is an on-line scanning tool for malware detection. The positive samples were collected from several random manifests and different applications at Google Play Store (https://play.google.com/). 
+
+Since each dataset sample stands for a different application, we used the permissions of that application to access Android resources and device actions as the features. Therefore, each dataset sample is composed of 152 features (permissions). Please, consider taking look at “LIST_PERMISSIONS.pdf” file for a deeper explanation about that specific permissions.
 
